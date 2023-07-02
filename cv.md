@@ -13,7 +13,6 @@ I have different hobbies: reading books, playing board games, especially chess. 
 * JS basic
 * Figma
 * Git & Github
-===
 #### **Code example**:
 ```
     let arr1 = [-5, 6, 0, 2, -10, 15, 35];
