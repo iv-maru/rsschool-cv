@@ -7,10 +7,14 @@
 *discord: Margarita (@iv-maru)
 ===
 #### About Myself: 
-Currently I work as an accountant, but I am studying web development on various online platforms. I received a certificate in the course: Web development for beginners: HTML and CSS (Веб-разработка для начинающих: HTML и CSS – Stepik). Now I am studying course “JavaScript/Front-end. Stage 0” in RS School.
+Currently I work as an accountant, but I am studying web development on various online platforms. I received a certificate in the course: Web development for beginners: HTML and CSS (Веб-разработка для начинающих: HTML и CSS – Stepik). Now I am studying course “JavaScript/Front-end. Stage 0” in RS School. I have different hobbies: reading books, playing board games, especially chess. Also I like pilates and surfing. In addition, I love to travel (I lived in Bali for more than a year. This was a great year for me :))
 ===
 #### Skills and Proficiency:
-
+*HTML5
+*CSS3
+*JS basic
+*Figma
+*Git & Github
 ===
 #### Code example:
 {
@@ -79,8 +83,6 @@ Currently I work as an accountant, but I am studying web development on various 
 
 	console.log(sumSal);
 }
-
-
 ===
 #### Courses:
 *HTML and CSS (Веб-разработка для начинающих: HTML и CSS – Stepik)
