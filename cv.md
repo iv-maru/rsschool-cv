@@ -3,7 +3,6 @@
 #### Contact information: 
 * iv.margaritaaa@gmail.com 
 * discord: Margarita (@iv-maru)
-===
 #### **About Myself**: 
 Currently I work as an accountant, but I am studying web development on various online platforms. I received a certificate in the course: Web development for beginners: HTML and CSS (Веб-разработка для начинающих: HTML и CSS – Stepik). Now I am studying course “JavaScript/Front-end. Stage 0” in RS School. 
 
@@ -77,7 +76,6 @@ I have different hobbies: reading books, playing board games, especially chess. 
 		}
 
 	}
-
 	console.log(sumSal);
 ```
 
