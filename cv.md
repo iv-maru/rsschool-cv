@@ -17,7 +17,7 @@ Currently I work as an accountant, but I am studying web development on various 
 *Git & Github
 ===
 #### Code example:
-{
+```
     let arr1 = [-5, 6, 0, 2, -10, 15, 35];
 	let arr2 = [];
 	for (let i = 0; i < arr1.length; i++) {
@@ -26,9 +26,8 @@ Currently I work as an accountant, but I am studying web development on various 
 		}
 	}
 	console.log(arr2);
-}
-
-{
+```
+```
     let arr = [
 		[1, 2, 3],
 		[4, 5],
@@ -41,9 +40,8 @@ Currently I work as an accountant, but I am studying web development on various 
 		}
 	}
 	console.log(sum);
-}
-
-{
+```
+```
     let employees = [{
 			name: 'name1',
 			salary: 300,
@@ -82,7 +80,7 @@ Currently I work as an accountant, but I am studying web development on various 
 	}
 
 	console.log(sumSal);
-}
+```
 ===
 #### Courses:
 *HTML and CSS (Веб-разработка для начинающих: HTML и CSS – Stepik)
