@@ -101,6 +101,55 @@ a {
     font-weight: 400;
     font-size: 30px;
     line-height: 57px;
+    color:  #4b6154;
+    margin: 0;
+    margin-bottom: 0.95em;
+}
+/* about me styles start */
+
+/* skills and languages styles start */
+
+.skills_languages {
+    display: flex;
+    gap: 4em;
+    justify-content: space-between;
+    padding: 1em 20em;
+    
+}
+
+.skills_title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 57px;
+    color:  #314448;
+    margin: 0;
+    margin-bottom: 0.95em;
+    padding-top: 2em;
+}
+
+.skills_text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 57px;
+    color:  #4b6154;;
+    margin: 0;
+    margin-bottom: 0.95em;
+}
+
+.languages_title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 57px;
+    color:  #314448;
+    margin: 0;
+    margin-bottom: 0.95em;
+    padding-top: 2em;
+}
+
+.languages_text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 57px;
     color:  #4b6154;;
     margin: 0;
     margin-bottom: 0.95em;
