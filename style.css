@@ -35,8 +35,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 2em 0;
-    
+    padding: 3em 0;
 }
 
 a {
@@ -75,7 +74,7 @@ a {
 .about_me {
     display: flex;
     gap: 4em;
-    padding: 0 1em;
+    padding: 0 1em 3em 1em;
 }
 
 .about_me_photo {
@@ -113,8 +112,13 @@ a {
     display: flex;
     gap: 4em;
     justify-content: space-between;
-    padding: 1em 20em;
+    padding: 0 15em 3em 15em;
     
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .skills_title {
@@ -123,17 +127,19 @@ a {
     line-height: 57px;
     color:  #314448;
     margin: 0;
-    margin-bottom: 0.95em;
-    padding-top: 2em;
 }
 
 .skills_text {
     font-weight: 400;
     font-size: 30px;
     line-height: 57px;
-    color:  #4b6154;;
+    color:  #4b6154;
     margin: 0;
-    margin-bottom: 0.95em;
+}
+
+.languages {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .languages_title {
@@ -142,15 +148,74 @@ a {
     line-height: 57px;
     color:  #314448;
     margin: 0;
-    margin-bottom: 0.95em;
-    padding-top: 2em;
 }
 
 .languages_text {
     font-weight: 400;
     font-size: 30px;
     line-height: 57px;
-    color:  #4b6154;;
+    color:  #4b6154;
     margin: 0;
-    margin-bottom: 0.95em;
+}
+
+.courses {
+    padding: 1em 15em 3em 15em;
+    border: 2px solid #4b6154;
+}
+
+.courses_title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 57px;
+    color:  #314448;
+    margin: 0;
+}
+
+.courses_text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 57px;
+    color:  #4b6154;
+    margin: 0;
+}
+
+.my_projects {
+    padding: 1em 15em 3em 15em;
+}
+
+.my_projects_title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 57px;
+    color:  #314448;
+    margin: 0;
+}
+
+.my_projects_link {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 57px;
+    color:  #4b6154;
+    margin: 0;
+}
+
+.code_example {
+    padding: 1em 15em 3em 15em;
+    border: 2px solid #4b6154;
+}
+
+.code_example_title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 57px;
+    color:  #314448;
+    margin: 0;
+}
+
+.code_example_text{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 57px;
+    color:  #4b6154;
+    margin: 0;
 }
