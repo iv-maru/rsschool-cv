@@ -12,20 +12,20 @@
             <div class="header-wrapper">
                 <nav class="header-nav">
                     <ul class="header-list">
-                        <li class="header-item disabled-bottom">
-                            <a href="#!" class="header-link"> About me</a>
+                        <li class="header-item">
+                            <a href="#about_me" class="header-link">About me</a>
                         </li>
                         <li class="header-item">
-                            <a href="index-petsnew.html" class="header-link">Skills and Proficiency</a>
+                            <a href="#skills" class="header-link">Skills and Languages</a>
                         </li>
                         <li class="header-item">
-                            <a href="#help" class="header-link">Courses</a>
+                            <a href="#courses" class="header-link">Courses</a>
                         </li>
                         <li class="header-item">
-                            <a href="#contacts" class="header-link">My projects</a>
+                            <a href="#my_projects" class="header-link">My projects</a>
                         </li>
                         <li class="header-item">
-                            <a href="#contacts" class="header-link">Languages</a>
+                            <a href="#code_ex" class="header-link">Code example</a>
                         </li>
                         <li class="header-item">
                             <a href="#contacts" class="header-link">Contacts</a>
@@ -35,7 +35,7 @@
             </div>
         </header>
         <main class="main">
-            <div class="about_me">
+            <div id="about_me" class="about_me">
                 <div class="about_me_photo">
                     <img src="myphoto.JPG" alt="my photo" width="100%">
                 </div>
@@ -49,11 +49,11 @@
     
                 </div>              
             </div>
-            <div class="skills_languages">
+            <div id="skills" class="skills_languages">
                 <div class="skills">
-                    <h1 class="skills_title">
+                    <h2 class="skills_title">
                         Skills
-                    </h1>
+                    </h2>
                     <div class="skills_text">
                         <ul class="skills_list">
                             <li>HTML5</li>
@@ -65,9 +65,9 @@
                     </div>
                 </div>
                 <div class="languages">
-                    <h1 class="languages_title">
+                    <h2 class="languages_title">
                         Languages
-                    </h1>
+                    </h2>
                     <div class="languages_text">
                         <ul class="languages_list">
                             <li>Russian - native</li>
@@ -77,10 +77,10 @@
                     </div>
                 </div>            
             </div>
-            <div class="courses">
-                <h1 class="courses_title">
+            <div id="courses" class="courses">
+                <h2 class="courses_title">
                     Courses
-                </h1>
+                </h2>
                 <div class="courses_text">
                     <ol class="courses_list">
                         <li>HTML and CSS (Веб-разработка для начинающих: HTML и CSS – Stepik)</li>
@@ -89,18 +89,18 @@
                     </ol>
                 </div>
             </div>
-            <div class="my_projects">
-                <h1 class="my_projects_title">
+            <div id="my_projects" class="my_projects">
+                <h2 class="my_projects_title">
                     My projects
-                </h1>
+                </h2>
                 <div class="my_projects_text">
                     <a class="my_projects_link" href="https://wondrous-chaja-c403cd.netlify.app">Shelter</a>
                 </div>
             </div>
-            <div class="code_example">
-                <h1 class="code_example_title">
+            <div id="code_ex" class="code_example">
+                <h2 class="code_example_title">
                     Code example
-                </h1>
+                </h2>
                 <div class="code_example_text">
                     <p>let employees = [ <br> {
                         name: 'name1',
@@ -138,7 +138,25 @@
                 </div>
             </div>
         </main>
-        <footer class="footer">
+        <footer id="contacts" class="footer">
+        <div class="footer_content">
+            <div class="logo_rs">
+                <img src="rs-logo.svg" alt="logo_rs" width="100%">
+                <a  class="rs_link" href="https://rs.school/js/">RS School</a>
+            </div>
+            <div class="contacts_content">
+                <h2 class="contacts_title">
+                    Contacts
+                </h2>
+                <div class="contacts_list">
+                    <ul>
+                        <li>iv.margaritaaa@gmail.com </li>
+                        <li><a class="git_link" href="https://github.com/iv-maru">Github: iv-maru</a></li>
+                        <li>discord: Margarita (@iv-maru)</li>
+                    </ul>
+                </div>
+        </div>  
+        </div>  
         </footer>       
    </div>
 </body>

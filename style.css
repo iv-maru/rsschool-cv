@@ -219,3 +219,43 @@ a {
     color:  #4b6154;
     margin: 0;
 }
+
+.footer_content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4em;
+    justify-content: center;
+    padding: 3em 0;
+}
+
+.rs_link{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 57px;
+    color:  #000000;
+    margin: 0;
+}
+
+.contacts_title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 57px;
+    color:#314448;
+    margin: 0;
+}
+
+.contacts_list {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 57px;
+    color:#4b6154;
+    margin: 0;
+}
+
+.git_link{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 57px;
+    color:#4b6154;
+    margin: 0;
+}
