@@ -1,0 +1,261 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 10px;
+    font-weight: normal;
+    color: black;
+    margin: 0;
+}
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #c0dfc2;
+}
+
+/*header styles start */
+
+.header-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3em 0;
+}
+
+a {
+    text-decoration: none;
+    line-height: 0;
+}
+
+.header-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.header-item {
+    margin-right: 35px; 
+}
+
+.header-item:last-child {
+    margin-right: 0;
+}
+
+.header-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    color: #4b6154;
+    text-decoration: none;
+}
+
+/*header styles end */
+
+/* about me styles start */
+
+.about_me {
+    display: flex;
+    gap: 4em;
+    padding: 0 1em 3em 1em;
+}
+
+.about_me_photo {
+    max-width: 698px;
+    line-height: 0;
+}
+
+.about_me_content {
+    max-width: 698px;
+}
+
+.about_me_title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 57px;
+    color:  #314448;
+    margin: 0;
+    margin-bottom: 0.95em;
+    padding-top: 2em;
+}
+
+.about_me_text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 57px;
+    color:  #4b6154;
+    margin: 0;
+    margin-bottom: 0.95em;
+}
+/* about me styles start */
+
+/* skills and languages styles start */
+
+.skills_languages {
+    display: flex;
+    gap: 4em;
+    justify-content: space-between;
+    padding: 0 15em 3em 15em;
+    
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills_title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 57px;
+    color:  #314448;
+    margin: 0;
+}
+
+.skills_text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 57px;
+    color:  #4b6154;
+    margin: 0;
+}
+
+.languages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.languages_title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 57px;
+    color:  #314448;
+    margin: 0;
+}
+
+.languages_text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 57px;
+    color:  #4b6154;
+    margin: 0;
+}
+
+.courses {
+    padding: 1em 15em 3em 15em;
+    border: 2px solid #4b6154;
+}
+
+.courses_title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 57px;
+    color:  #314448;
+    margin: 0;
+}
+
+.courses_text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 57px;
+    color:  #4b6154;
+    margin: 0;
+}
+
+.my_projects {
+    padding: 1em 15em 3em 15em;
+}
+
+.my_projects_title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 57px;
+    color:  #314448;
+    margin: 0;
+}
+
+.my_projects_link {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 57px;
+    color:  #4b6154;
+    margin: 0;
+}
+
+.code_example {
+    padding: 1em 15em 3em 15em;
+    border: 2px solid #4b6154;
+}
+
+.code_example_title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 57px;
+    color:  #314448;
+    margin: 0;
+}
+
+.code_example_text{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 57px;
+    color:  #4b6154;
+    margin: 0;
+}
+
+.footer_content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4em;
+    justify-content: center;
+    padding: 3em 0;
+}
+
+.rs_link{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 57px;
+    color:  #000000;
+    margin: 0;
+}
+
+.contacts_title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 57px;
+    color:#314448;
+    margin: 0;
+}
+
+.contacts_list {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 57px;
+    color:#4b6154;
+    margin: 0;
+}
+
+.git_link{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 57px;
+    color:#4b6154;
+    margin: 0;
+}

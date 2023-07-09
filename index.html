@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="wrapper">
+        <header class="header">
+            <div class="header-wrapper">
+                <nav class="header-nav">
+                    <ul class="header-list">
+                        <li class="header-item">
+                            <a href="#about_me" class="header-link">About me</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#skills" class="header-link">Skills and Languages</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#courses" class="header-link">Courses</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#my_projects" class="header-link">My projects</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#code_ex" class="header-link">Code example</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#contacts" class="header-link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div id="about_me" class="about_me">
+                <div class="about_me_photo">
+                    <img src="myphoto.JPG" alt="my photo" width="698">
+                </div>
+                <div class="about_me_content">
+                    <h1 class="about_me_title">
+                        About me
+                    </h1>
+                    <div class="about_me_text">
+                        <p>Currently I work as an accountant, but I am studying web development on various online platforms. I received a certificate in the course: <br> Web development for beginners: HTML and CSS (Веб-разработка для начинающих: HTML и CSS – Stepik). Now I am studying course “JavaScript/Front-end. Stage 0” in RS School.</p>
+                    </div>
+    
+                </div>              
+            </div>
+            <div id="skills" class="skills_languages">
+                <div class="skills">
+                    <h2 class="skills_title">
+                        Skills
+                    </h2>
+                    <div class="skills_text">
+                        <ul class="skills_list">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JS basic</li>
+                            <li>Figma</li>
+                            <li>Git & Github</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="languages">
+                    <h2 class="languages_title">
+                        Languages
+                    </h2>
+                    <div class="languages_text">
+                        <ul class="languages_list">
+                            <li>Russian - native</li>
+                            <li>English - B1 (Certificate BEC)</li>
+                            <li>French - A1</li>
+                        </ul>
+                    </div>
+                </div>            
+            </div>
+            <div id="courses" class="courses">
+                <h2 class="courses_title">
+                    Courses
+                </h2>
+                <div class="courses_text">
+                    <ol class="courses_list">
+                        <li>HTML and CSS (Веб-разработка для начинающих: HTML и CSS – Stepik)</li>
+                        <li>Javascript (https://code.mu/ru/javascript/book/prime/)</li>
+                        <li>JavaScript/Front-end. Stage 0 (https://github.com/rolling-scopes-school/tasks/tree/master/stage0)</li>
+                    </ol>
+                </div>
+            </div>
+            <div id="my_projects" class="my_projects">
+                <h2 class="my_projects_title">
+                    My projects
+                </h2>
+                <div class="my_projects_text">
+                    <a class="my_projects_link" href="https://wondrous-chaja-c403cd.netlify.app">Shelter</a>
+                </div>
+            </div>
+            <div id="code_ex" class="code_example">
+                <h2 class="code_example_title">
+                    Code example
+                </h2>
+                <div class="code_example_text">
+                    <p>let employees = [ <br> {
+                        name: 'name1',
+                        salary: 300,
+                        age: 28,
+                    }, <br>
+                    {
+                        name: 'name2',
+                        salary: 400,
+                        age: 29,
+                    }, <br>
+                    {
+                        name: 'name3',
+                        salary: 500,
+                        age: 30,
+                    }, <br>
+                    {
+                        name: 'name4',
+                        salary: 600,
+                        age: 31,
+                    },<br>
+                    {
+                        name: 'name5',
+                        salary: 700,
+                        age: 32,
+                    },<br>
+                ]; <br>
+                let sumSal = 0;<br>
+                for (let employe of employees) {<br>
+                    if (employe.age >= 30) {<br>
+                        sumSal += employe.salary;
+                    }<br>
+                }<br>
+                console.log(sumSal);</p>
+                </div>
+            </div>
+        </main>
+        <footer id="contacts" class="footer">
+        <div class="footer_content">
+            <div class="logo_rs">
+                <img src="rs-logo.svg" alt="logo_rs" width="392">
+                <a  class="rs_link" href="https://rs.school/js/">RS School</a>
+            </div>
+            <div class="contacts_content">
+                <h2 class="contacts_title">
+                    Contacts
+                </h2>
+                <div class="contacts_list">
+                    <ul>
+                        <li>iv.margaritaaa@gmail.com </li>
+                        <li><a class="git_link" href="https://github.com/iv-maru">Github: iv-maru</a></li>
+                        <li>discord: Margarita (@iv-maru)</li>
+                    </ul>
+                </div>
+        </div>  
+        </div>  
+        </footer>       
+   </div>
+</body>
+</html>
